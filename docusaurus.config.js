@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Meng Chieh aka. Jedi',
   tagline: 'Dinosaurs are cool',
-  url: 'https://github.com',
+  url: 'https://jedi0605/github.io',
   baseUrl: '/personal_page/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'jedi0605', // Usually your GitHub org/user name.
-  projectName: 'personal_page', // Usually your repo name.
-  deploymentBranch: "gh-pages",
+  projectName: 'personal_page.github.io', // Usually your repo name.  
+  trailingSlash: false,
 
   presets: [
     [
