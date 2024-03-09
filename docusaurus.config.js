@@ -6,13 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Meng Chieh aka. Jedi',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://github.com',
+  baseUrl: '/personal_page/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jedi0605', // Usually your GitHub org/user name.
+  projectName: 'personal_page', // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   presets: [
     [
@@ -53,7 +54,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
